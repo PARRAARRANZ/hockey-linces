@@ -1,0 +1,10 @@
+{
+  "appId": "es.jpa.hockeylinces",
+  "appName": "Hockey Linces",
+  "webDir": "www",
+  "backgroundColor": "#070a14",
+  "android": {
+    "backgroundColor": "#070a14",
+    "allowMixedContent": false
+  }
+}
