@@ -11,6 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Ordenar archivos
+        run: |
+          mkdir -p www assets
+          cp index.html www/index.html
+          cp icon-only.png icon-foreground.png icon-background.png splash.png splash-dark.png assets/
+
       - uses: actions/setup-node@v4
         with:
           node-version: 20
